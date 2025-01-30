@@ -156,7 +156,7 @@
 .letter:nth-child(25) {
   -webkit-animation: twinkle 2.7s infinite 1.5s;
           animation: twinkle 2.7s infinite 1.5s;
-  offset-distance: 83.33%;
+  offset-distance: 84.33%;
 }
 .letter:nth-child(26) {
   -webkit-animation: twinkle 2.7s infinite 1.5s;
