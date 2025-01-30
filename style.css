@@ -42,7 +42,7 @@
 }
 
 /* Ensure "Paola!" moves to a new line on an iPhone 14 Pro (screen width ≤ 430px) */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 400px) {
   .paola {
     display: block;
     text-align: center;
