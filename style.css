@@ -33,6 +33,24 @@
     offset-path: path("m0, 0 c100, -150 200, -150 300, 0");
   }
 }
+
+.paola {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px; /* Adjust spacing between lines */
+}
+
+/* Ensure "Paola!" moves to a new line on an iPhone 14 Pro (screen width ≤ 430px) */
+@media screen and (max-width: 400px) {
+  .paola {
+    display: block;
+    text-align: center;
+    margin-top: 15px; /* Add extra space for better readability */
+  }
+}
+
+
 .letter:nth-child(1) {
   -webkit-animation: twinkle 2.7s infinite 0.75s;
           animation: twinkle 2.7s infinite 0.75s;
